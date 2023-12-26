@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <div id="header-a">
+            <ul class="ul-a">
+                <li> <a href="index.html" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                <li> <a href="index.html" target="_blank"><i class='bx bxl-twitter'></i></a></li>
+                <li> <a href="index.html" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+            </ul>
+            <ul class="ul-b">
+                <li><a href="index.html" target="_blank">Sobre Nosotros</a></li>
+                <li><a href="index.html" target="_blank">Favoritos</a></li>
+                <li><a href="index.html" target="_blank">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid a d-flex align-items-center">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-start container-fluid" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <a href="#"><img src="img/Logo1.png" class="logo" alt="logo"></a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex justify-content-between row">
+                        <ul class="navbar-nav  pe-3 col-lg-3 col-md-2 menuder">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Productos</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </li>
+                                </ul> -->
+                            </li>
+                        </ul>
+                        <div class="d-flex col-lg-6 logo otherlog">
+                            <a href="#"><img src="img/Logo1.png" class="logo" alt="logo"></a>
+                        </div>
+                        <div class="d-flex  col-lg-3 col-md-4 menufin">
+                            <ul class="navbar-nav d-flex justify-content-end">
+                                <li class="nav-item ">
+                                    <button type="button" class="btn btn-link" data-toggle="modal"
+                                        data-target="#exampleModal">Login</button>
+
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class='bx bx-search'></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class='bx bx-heart'></i></a>
+                                </li>
+                                <li class="nav-item icshop1">
+                                    <a class="nav-link" href="#"><i class='bx bx-shopping-bag'></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+                <ul class="col-auto icshop2">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#"><i class='bx bx-shopping-bag'></i> </a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+        <div class="img"></div>
+    </header>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="999" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section id="prod1" class="container-fluid">
+            <div class="caja row">
+                <div class="cards c1 col-lg-4 col-md-12 col-sm-12">
+                    <div class="info">
+                        <h2>Camisa Con Botones</h2>
+                        <a href="#">Comprar</a>
+                    </div>
+                </div>
+                <div class="cards c2 col-lg-4 col-md-12 col-sm-12">
+                    <div class="info">
+                        <h2>Camisa Sin Botones</h2>
+                        <a href="#">Comprar</a>
+                    </div>
+                </div>
+                <div class="cards c3 col-lg-4 col-md-12 col-sm-12">
+                    <div class="info infother">
+                        <h2>Ofertas</h2>
+                        <p>Hasta 70% de descuento y envío gratis</p>
+                        <a href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <hr>
+
+
+
+
+
+        <section id="prod2" class="container-fluid">
+            <div class="slogan row">
+                <h2 class="col-12">Más vendido</h2>
+                <p class="col-12">Tu felicidad esta en las pequeñas cosas,
+                    como Comprar Ropa y nosotras queremos ser Parte. <br></p>
+                <p>La Boutique que quiere tu comodidad.</p>
+            </div>
+
+            <div class="caja caja2 row">
+                <div class="cards cards2 col-lg-4 col-md-12 col-sm-12">
+                    <div class="ca">
+                        <a href="#">
+                            <div class="img1-1"></div>
+                            <!-- <div class="img1-2"></div> -->
+                        </a>
+                    </div>
+                    <div class="info2">
+                        <a href="#">Cashmere Tank + Bag</a>
+                        <p>100$ - 200$</p>
+                    </div>
+                </div>
+                <div class="cards cards2 col-lg-4 col-md-12 col-sm-12">
+                    <div class="cb">
+                        <a href="">
+                            <div class="img2-1"></div>
+                            <!-- <div class="img2-2"></div> -->
+                        </a>
+                    </div>
+                    <div class="info2">
+                        <a href="#">Micro Form Bag</a>
+                        <p>100$ - 200$</p>
+                    </div>
+                </div>
+                <div class="cards cards2 col-lg-4 col-md-12 col-sm-12">
+                    <div class="cc">
+                        <a href="#">
+                            <div class="img3-1"></div>
+                            <!-- <div class="img3-2"></div> -->
+                        </a>
+                    </div>
+                    <div class="info2">
+                        <a href="#">Cashmere Tank</a>
+                        <p>100$ - 200$</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="testi">
+                <h2>Testimonials</h2>
+                <!-- <div class="cajat"> -->
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="prod3" class="container-fluid">
+            <div class="slogan row">
+                <h2 class="col-12">Más vendido</h2>
+                <p class="col-12">Tu felicidad esta en las pequeñas cosas,
+                    como Comprar Ropa y nosotras queremos ser Parte. <br></p>
+                <p class="col-12">La Boutique que quiere tu comodidad.</p>
+            </div>
+            <div class="caja caja3 row">
+                <div class="cards col-lg-3 col-md-6 col-sm-12">
+                    <div class="cards cards2 ">
+                        <div>
+                            <a href="#">
+                                <div class="img4-1"></div>
+                            </a>
+                        </div>
+                        <div class="info2">
+                            <a href="#">Cashmere Tank + Bag</a>
+                            <p>100$ - 200$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards col-lg-3 col-md-6 col-sm-12">
+                    <div class="cards cards2">
+                        <div>
+                            <a href="#">
+                                <div class="img5-1"></div>
+                            </a>
+                        </div>
+                        <div class="info2">
+                            <a href="#">Micro Form Bag</a>
+                            <p>100$ - 200$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards col-lg-3 col-md-6 col-sm-12">
+                    <div class="cards cards2">
+                        <div>
+                            <a href="#">
+                                <div class="img6-1"></div>
+                            </a>
+                        </div>
+                        <div class="info2">
+                            <a href="#">Cashmere Tank</a>
+                            <p>100$ - 200$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards col-lg-3 col-md-6 col-sm-12">
+                    <div class="cards cards2">
+                        <div>
+                            <a href="#">
+                                <div class="img7-1"></div>
+                            </a>
+                        </div>
+                        <div class="info2">
+                            <a href="#">Hang Out Hoodie</a>
+                            <p>100$ - 200$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+
+
+        <section id="sec4" class="container-fluid">
+            <div class="slogan row">
+                <h2 class="col-12">Más vendido</h2>
+                <p class="col-12">Tu felicidad esta en las pequeñas cosas,
+                    como Comprar Ropa y nosotras queremos ser Parte. <br></p>
+                <p class="col-12">La Boutique que quiere tu comodidad.</p>
+            </div>
+
+            <div class="caja row cajaimg">
+             <img src="img/boutique-2048x1088.jpg.jpg" alt="bou">
+        </div>
+        </section>
+        <hr>
+    </main>
+
+    <footer class="container-fluid">
+        <div id="foot1" class="caja row">
+
+            <div class="cards cards2 col-lg-3 col-md-6 col-sm-12">
+                <h2>EMPRESA</h2>
+                <ul>
+                    <li>Sobre Nosotros</li>
+                    <li>Contacto</li>
+                    <li>Ubicacion</li>
+
+                </ul>
+            </div>
+            <div class="cards cards2 col-lg-3 col-md-6 col-sm-12">
+                <h2>AYUDA</h2>
+                <ul>
+                    <li>Seguimiento de Orden</li>
+                    <li>Preguntas Frecuentes</li>
+                    <li>Politica de Privacidad</li>
+
+                </ul>
+            </div>
+            <div class="cards cards2 col-lg-3 col-md-6 col-sm-12">
+                <h2>TIENDA</h2>
+                <ul>
+                    <li>Ropa</li>
+                    <li>Accesorios</li>
+                    <li>Calzado</li>
+                </ul>
+            </div>
+            <div class="cards cards2 col-lg-3 col-md-6 col-sm-12">
+                <h2>SEGUINOS</h2>
+                <ul>
+                    <li>¡Y obtén envío gratis en todos tus pedidos!</li>
+                    <li class="icons">
+                        <ul class="ul-a ">
+                            <li> <a href="index.html" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                            <li> <a href="index.html" target="_blank"><i class='bx bxl-twitter'></i></a></li>
+                            <li> <a href="index.html" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                            <li> <a href="index.html" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div id="foot2" class="caja row">
+            <h2 class="col-12">Regístrese ahora y obtenga un 10% de descuento</h2>
+            <p class="col-12">Sé el primero en enterarte de nuestras novedades y ofertas exclusivas.</p>
+            <div class="col-12">
+                <form action="#" class="form2">
+                    <input type="email" name="EMAIL" placeholder="Su e-mail aqui">
+                    <input type="submit" value="Regístrese" >
+                </form>
+            
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="foot3" class="caja row">
+            <div class="col-6">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <p>©2023 AfterUs - Katherine Maldonado Garcia</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
